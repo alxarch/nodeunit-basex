@@ -1,0 +1,31 @@
+{
+  "name": "nodeunit-basex",
+  "version": "0.0.1",
+  "main": "lib/nodeunit-basex.js",
+  "description": "Run BaseX unit tests in nodeunit.",
+  "homepage": "https://github.com/alxarch/nodeunit-basex",
+  "bugs": "https://github.com/alxarch/nodeunit-basex/issues",
+  "author": {
+    "name": "Alexandros Sigalas",
+    "email": "alxarch@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alxarch/nodeunit-basex"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.0",
+    "nodeunit": "~0.8.1",
+    "shelljs": "~0.2.6"
+  },
+  "dependencies": {
+    "basex-standalone": "~1.4.0"
+  }
+}
