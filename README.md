@@ -10,7 +10,7 @@ Run all *[.-_]test.xqm modules inside a testdir:
 var bxunit = require('nodeunit-basex');
 
 exports['my-xquery-tests'] = function(test){
-	bxunit(test, 'test/xquery', { basexpath: 'tmp/basex'});
+	bxunit(test, 'path/to/xquery/tests/');
 };
 ```
 
